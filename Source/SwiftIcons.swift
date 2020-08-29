@@ -922,7 +922,44 @@ public enum FontType: FontProtocol, CaseIterable {
         }
         return fileName
     }
-
+    
+    /**
+     This function returns the displayable name of the font familiy
+     */
+    public func displayableFontName() -> String {
+      var fileName: String
+      switch self {
+      case .dripicon:
+        fileName = "Dripicons"
+      case .emoji:
+        fileName = "Emoji"
+      case .fontAwesomeRegular:
+        fileName = "Font Awesome Regular"
+      case .fontAwesomeBrands:
+        fileName = "Font Awesome Brands"
+      case .fontAwesomeSolid:
+        fileName = "Font Awesome Solid"
+      case .icofont:
+        fileName = "Ico font"
+      case .ionicons:
+        fileName = "Ionicons"
+      case .linearIcons:
+        fileName = "Linearicons"
+      case .mapicons:
+        fileName = "Map-Icons"
+      case .googleMaterialDesign:
+        fileName = "Material Icons"
+      case .openIconic:
+        fileName = "Open Iconic"
+      case .state:
+        fileName = "State face"
+      case .weather:
+        fileName = "Weather Icons"
+      case .typIcons:
+        fileName = "Typ Icons"
+      }
+      return fileName
+    }
     /**
      This function returns the font family name using font type
      */
