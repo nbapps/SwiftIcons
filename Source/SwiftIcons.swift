@@ -924,39 +924,53 @@ public enum FontType: FontProtocol, CaseIterable {
     }
     
     /**
-     This function returns the displayable name of the font familiy
+     This function returns the displayable icon name and is autor of the font familiy
      */
-    public func displayableFontName() -> String {
-      var fileName: String
+    public func displayableInformations() -> (fontName: String, autor: String) {
+      var fileName: (fontName: String, autor: String)
       switch self {
       case .dripicon:
-        fileName = "Dripicons"
+        fileName.fontName = "Dripicons"
+        fileName.autor = "AMIT JAKHU"
       case .emoji:
-        fileName = "Emoji"
+        fileName.fontName = "Emoji"
+        fileName.autor = "JOHN SLEGERS"
       case .fontAwesomeRegular:
-        fileName = "Font Awesome Regular"
+        fileName.fontName = "Font Awesome Regular"
+        fileName.autor = "DAVE GANDY"
       case .fontAwesomeBrands:
-        fileName = "Font Awesome Brands"
+        fileName.fontName = "Font Awesome Brands"
+        fileName.autor = "DAVE GANDY"
       case .fontAwesomeSolid:
-        fileName = "Font Awesome Solid"
+        fileName.fontName = "Font Awesome Solid"
+        fileName.autor = "DAVE GANDY"
       case .icofont:
-        fileName = "Ico font"
+        fileName.fontName = "Ico font"
+        fileName.autor = "SHAPEBOOTSTRAP"
       case .ionicons:
-        fileName = "Ionicons"
+        fileName.fontName = "Ionicons"
+        fileName.autor = "IONIC"
       case .linearIcons:
-        fileName = "Linearicons"
+        fileName.fontName = "Linearicons"
+        fileName.autor = "PERXIS"
       case .mapicons:
-        fileName = "Map-Icons"
+        fileName.fontName = "Map-Icons"
+        fileName.autor = "SCOTT DE JONGE"
       case .googleMaterialDesign:
-        fileName = "Material Icons"
+        fileName.fontName = "Material Icons"
+        fileName.autor = "GOOGLE"
       case .openIconic:
-        fileName = "Open Iconic"
+        fileName.fontName = "Open Iconic"
+        fileName.autor = "ICONIC"
       case .state:
-        fileName = "State face"
+        fileName.fontName = "State face"
+        fileName.autor = "PROPUBLICA"
       case .weather:
-        fileName = "Weather Icons"
+        fileName.fontName = "Weather Icons"
+        fileName.autor = "ERIK FLOWERS"
       case .typIcons:
-        fileName = "Typ Icons"
+        fileName.fontName = "Typ Icons"
+        fileName.autor = "Stephen Hutchings"
       }
       return fileName
     }
