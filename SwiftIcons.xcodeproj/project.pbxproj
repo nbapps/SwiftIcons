@@ -186,6 +186,7 @@
 		A605C1271E37A9EE0079765A = {
 			isa = PBXGroup;
 			children = (
+				A686468C1EBB867E00EF27A9 /* Package.swift */,
 				4389E5E620FE8FCB00175651 /* Source */,
 				A6DDCFA41E40E3E500191F5C /* Resources */,
 				A605C1321E37A9EE0079765A /* SwiftIconsApp */,
@@ -228,7 +229,6 @@
 				A6945A3A1E8D406B004AA743 /* .swift-version */,
 				A6BD3B5A1EA154D100F2CF09 /* CHANGELOG.md */,
 				A686468B1EBB73BC00EF27A9 /* .travis.yml */,
-				A686468C1EBB867E00EF27A9 /* Package.swift */,
 			);
 			path = SwiftIconsApp;
 			sourceTree = "<group>";
@@ -336,7 +336,7 @@
 					};
 					A605C12F1E37A9EE0079765A = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = YT594STPKB;
+						DevelopmentTeam = V4U726YWM5;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
@@ -659,7 +659,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = YT594STPKB;
+				DEVELOPMENT_TEAM = V4U726YWM5;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftIconsApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -677,7 +677,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = YT594STPKB;
+				DEVELOPMENT_TEAM = V4U726YWM5;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftIconsApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
